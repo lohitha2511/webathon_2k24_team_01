@@ -1,0 +1,19 @@
+.filterMain{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+select{
+    border: 0;
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+h2{
+    font-size: 30px;
+}

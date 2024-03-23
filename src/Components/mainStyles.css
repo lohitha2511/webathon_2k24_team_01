@@ -1,0 +1,20 @@
+.MainContainer{
+    display: flex;
+    width: 100%;
+}
+
+.filterFull{
+    display: flex;
+    width: 100%;
+}
+
+.NonSidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}

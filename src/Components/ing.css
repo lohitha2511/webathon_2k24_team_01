@@ -1,0 +1,61 @@
+.recipe-selector {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ingredient-list button {
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .ingredient-list button.selected {
+    background-color: #0056b3;
+  }
+  
+  .suggested-recipes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    gap: 10px;
+    padding: 5%;
+    padding-top: 2%;
+  }
+  
+  .listItem{
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 200ms;
+  }
+
+  .listItem:hover{
+    font-size: 30px;
+  }
+
+  .suggested-recipes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .suggested-recipes ul li {
+    margin-bottom: 10px;
+  }
+  
+  .suggested-recipes p {
+    font-style: italic;
+  }
+  

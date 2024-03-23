@@ -1,0 +1,32 @@
+.plusIcon{
+    z-index: 5;
+    position: fixed;
+    bottom: 2%;
+    background-color: rgb(198, 238, 193);;
+    right: 2%;
+    padding: 0.5% 1.0%;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.plusIcon h2{
+    font-size: 40px;
+    transition-property: font-size;
+    transition-duration: 200ms;
+}
+
+.plusIcon h2:hover{
+    font-size: 50px;
+}
+
+.link1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-decoration: None;
+    color: inherit;
+}
+
+
